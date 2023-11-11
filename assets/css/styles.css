@@ -9,15 +9,53 @@ body {
   font-family: 'Ruda', sans-serif;
 }
 
+/* header / navbar */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 95px;
+}
+
+.brand-logo {
+  width: 35%;
+  height: 70px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.item-holder {
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.item {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sign-in {
+  background-color: rgb(215, 50, 70);
+  padding: 10px;
+  color: white;
+}
+
 /* Features Section */
 
 .features {
   background-image: url('../images/woman-using-laptop-6.jpg');
   object-fit: cover;
+  object-position: top;
   font-weight: bold;
   text-align: center;
   color: white;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 
   /* height: 500px; */
   width: 100%;
